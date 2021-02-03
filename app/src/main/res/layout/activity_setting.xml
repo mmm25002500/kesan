@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/saveSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="儲存" />
+
+            <Button
+                android:id="@+id/cancelSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="取消" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/loadJS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="是否啟用載入JavaScript"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/loadHTML5DomStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="是否啟用HTML5資料儲存"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/UseWideViewPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="是否自動調整螢幕大小"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/enableDisplayZoomControls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="是否啟用自適應螢幕"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/enableSupportZoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="是否啟用縮放"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/openEngineMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="是否打開工程模式"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/isEngineModeOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="工程模式未打開" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

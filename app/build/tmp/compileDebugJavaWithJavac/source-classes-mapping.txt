@@ -1,0 +1,8 @@
+com/tershi/kesan/BuildConfig.java
+ com.tershi.kesan.BuildConfig
+com/tershi/kesan/MainActivity.java
+ com.tershi.kesan.MainActivity
+ com.tershi.kesan.MainActivity$1
+ com.tershi.kesan.MainActivity$2
+com/tershi/kesan/Setting.java
+ com.tershi.kesan.Setting
