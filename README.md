@@ -27,7 +27,7 @@ Step 4.Run
 ``adb install release.apk``
 
 ### 心得與建構思路:
-這是我利用課餘時間使用Android Studio 利用Java寫出來的一個網頁瀏覽器，雖然目前功能只有瀏覽網頁，但我會持續將這個APP加入更多功能，優化效能，釋放記憶體，讓這一款瀏覽器可以與別人做出區隔。
+這是我利用課餘時間使用Android Studio 利用Java寫出來的一個網頁瀏覽器，雖然目前功能只有瀏覽網頁，但我會持續將這個APP加入更多功能，優化效能，釋放記憶體，讓這一款瀏覽器可以與別人做出區隔。<br>
 這我使用了兩個Activity完成的，第一個MainActivity是放置主畫面，第二個Activity是設定頁面，在activity_main.xml當中，我使用了LinearLayout將webview和btnSetting和另一個LinearLayout放在一起，另一個LinearLayout中放置搜尋和輸入網址功能，在輸入網址功能我自動在程式背後加入「http://」，這麼一來就不用手動輸入「http://」或是「https://」，可以更快到達想要去的網頁，在設定功能當中使用Intent來達成頁面疊加以及傳值，在兩個Java檔當中，我大量使用「OOP」，也就是「物件導向」，也使用了大量的方法，例如：「loadSetting() , startReadURL()...」，在設定的頁面當中，有「是否啟用載入JavaScript」，「是否啟用HTML5資料儲存」，「是否自動調整螢幕大小」...等等的。
 
 ## 關於我們 About Us
