@@ -37,7 +37,7 @@ Step 4.Run
 [XiaTerShi YouTube](https://www.youtube.com/channel/UCPdpFDFOp3sPbZhRkaQVaQA) <br>
 [XiaTerShi FaceBook](https://www.facebook.com/Tershi25648) <br>
 [Tershi MailServer](https://mail.tershi.ml) <br>
-[Tershi Official WebSite](https://official.tershi.ml) <br>
+[Tershi Official WebSite](https://cutespirit.tershi.ml) <br>
 [Tershi Gitbook](https://gitbook.tershi.ml) <br>
 [Tershi Telegram](https://t.me/TershiXia) <br>
 以上關於因為域名為免費域 因此隨時會網域更換！ <br>
